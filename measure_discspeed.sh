@@ -78,7 +78,7 @@ then
   # print input file name
   if [ $mounted_disc == "arkiv1" ]
   then
-    inp_fn=${arkiv1_inputdir}/${input_file_local_path}
+    inp_fn=${arkiv1_inputdir}${input_file_local_path}
     work_dir=${arkiv1_inputdir}
 
     # Make sure outputfolders are empty (in case it affects copy speed?)
@@ -89,7 +89,7 @@ then
     sudo rm "${arkiv1_inputdir}/Execute_write_test_hal/Test3_copy"/*
   elif [ $mounted_disc == "arkiv2" ]
   then
-    inp_fn=${arkiv2_inputdir}/${input_file_local_path}
+    inp_fn=${arkiv2_inputdir}${input_file_local_path}
     work_dir=${arkiv2_inputdir}
 
     # Make sure outputfolders are empty (in case it affects copy speed?)
@@ -100,7 +100,7 @@ then
     sudo rm "${arkiv2_inputdir}/Execute_write_test_hal/Test3_copy"/*
   elif [ $mounted_disc == "instrtmp" ]
   then
-    inp_fn=${inst_temp_inputdir}/${input_file_local_path}
+    inp_fn=${inst_temp_inputdir}${input_file_local_path}
     work_dir=${inst_temp_inputdir}
     # Make sure outputfolders are empty (in case it affects copy speed?)
     # at insttmp
