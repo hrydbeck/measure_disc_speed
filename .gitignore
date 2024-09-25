@@ -1,0 +1,10 @@
+# ignore
+
+## files
+paths.sh
+
+## folder content
+logs/
+tmp/
+
+# folders
