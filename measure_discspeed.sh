@@ -142,7 +142,7 @@ start_time=$SECONDS
 echo source "subscripts/${script_top_be_called}"
 
 source "subscripts/${script_top_be_called}"
-echo "$arkiv2_inputdir"
+# echo "$arkiv2_inputdir"
 
 echo "Script to be called is: ${script_top_be_called}"
 
