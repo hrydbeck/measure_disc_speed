@@ -20,7 +20,7 @@
 #server_calling_script_fromr="plato"
 
 mounted_disc="arkiv1"
-task="setq_downsample_fastq"
+task="copy_fastq"
 task_and_disc="${task}_${mounted_disc}"
 server_calling_script_from="plato"
 input_file_local_path="/Execute_write_test_hal/fastq/12877_1_S3_R1_001.fastq.gz"

@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# server_calling_script_from="plato"
-server_calling_script_from="d-ngsmgm2"
+server_calling_script_from="plato"
+# server_calling_script_from="d-ngsmgm2"
 input_file_local_path="/Execute_write_test_hal/fastq/12877_1_S3_R1_001.fastq.gz"
 
 # Tasks to perform

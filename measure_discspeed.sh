@@ -167,7 +167,6 @@ function displaytime {
 
 timepoint_for_measuremnt=$(date +"%Y_%m_%d_%H_%M")
 
-
 filesize=$(stat -c%s "$inp_fn" | numfmt --to=iec)
 
 # Write to log file
